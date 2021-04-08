@@ -165,7 +165,7 @@ button.active {
     }
     .purchase button {
         width: 100%;
-        padding: 1rem 0rem;
+        padding: 0.6rem 0rem;
     }
     /* Credits */
     .credit {
