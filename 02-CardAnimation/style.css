@@ -122,7 +122,63 @@ button.active {
     width: 35px;
     height: 35px;
 }
-
 .credit section {
     padding-top: 6px;
+}
+
+@media (max-width: 600px) {
+    /* Container and card */
+    .container {
+        width: 100%;
+    }
+    .card {
+        min-height: 60vh;
+        width: 20rem;
+    }
+    /* Circle and image */
+    .cthun {
+        min-height: 25vh;
+    }
+    .cthun img {
+        width: 8rem;
+    }
+    .circle {
+        width: 7rem;
+        height: 7rem;
+    }
+    /* Words */
+    .info h1 {
+        font-size: 1rem;
+    }
+    .info h3 {
+        font-size: 0.7rem;
+    }
+    /* Buttons */
+    button {
+        font-size: 0.6rem;
+    }
+    .plagues button {
+        padding: 0.2rem 0.7rem;
+    }
+    .purchase {
+        margin-top: 3rem;
+    }
+    .purchase button {
+        width: 100%;
+        padding: 1rem 0rem;
+    }
+    /* Credits */
+    .credit {
+        font-size: 0.7rem;
+        position: absolute;
+        bottom: 12px;
+        right: 25px;
+    }
+    .credit img {
+        width: 20px;
+        height: 20px;
+    }
+    .credit section {
+        padding-top: 3px;
+    }
 }
