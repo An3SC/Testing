@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#signature {
+    stroke-dasharray: 2026;
+    stroke-dashoffset: 2026;
+    animation: sign 1.5s ease;
+    animation-fill-mode: forwards;
+}
+
+body {
+    background: whitesmoke;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Petit Formal Script', sans-serif;
+}
+
+@keyframes sign {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+.credit {
+    font-size: 1.3rem;
+    position: absolute;
+    bottom: 15px;
+    right: 35px;
+}
+.credit img {
+    width: 35px;
+    height: 35px;
+}
+.credit section {
+    padding-top: 6px;
+}
