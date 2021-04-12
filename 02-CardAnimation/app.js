@@ -10,7 +10,7 @@ const description = document.querySelector('.info h3');
 const plagues = document.querySelector('.plagues');
 
 // Moving animation event
-container.addEventListener('mousemove', (e) => {
+container.addEventListener('pointermove', (e) => {
     let xAxis = (window.innerWidth / 2 - e.pageX) / 25;
     let yAxis = (window.innerHeight / 2 - e.pageY) / 25;
     // Rotation goes inversed
@@ -18,7 +18,7 @@ container.addEventListener('mousemove', (e) => {
 });
 
 // Animate in
-container.addEventListener('mouseenter', (e) => {
+container.addEventListener('pointerenter', (e) => {
     card.style.transition = 'none';
     // Popout effect (z axis)
     title.style.transform = 'translateZ(150px)';
@@ -28,7 +28,7 @@ container.addEventListener('mouseenter', (e) => {
     plagues.style.transform = 'translateZ(125px)';
 });
 // Animate out
-container.addEventListener('mouseleave', (e) => {
+container.addEventListener('pointerleave', (e) => {
     card.style.transition = 'all 0.5s ease';
     card.style.transform = `rotateY(0deg) rotateX(0deg)`;
     // Popback effect (Z axis)
