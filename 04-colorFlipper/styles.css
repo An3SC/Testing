@@ -1,8 +1,7 @@
 /* 
 Fonts
 */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 /* 
 Variables
 */
@@ -18,8 +17,8 @@ Variables
     --clr-grey-5: hsl(210, 22%, 49%);
     --clr-white: #fff;
     --clr-black: #222;
-    --ff-primary: 'Roboto', sans-serif;
-    --ff-secondary: 'Open Sans', sans-serif;
+    --ff-primary: 'Source Code Pro', sans-serif;
+    --ff-secondary: 'Source Code Pro', sans-serif;
     --transition: all 0.3s linear;
     --spacing: 0.1rem;
     --radius: 0.25rem;
